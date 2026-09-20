@@ -1,0 +1,5 @@
+telethon==1.36.0
+metaapi-cloud-sdk==29.0.0
+pymongo==4.8.0
+python-dotenv==1.0.1
+pytz==2024.1
