@@ -7,8 +7,11 @@ a channel it isn't added to as admin.
 First run will ask for a login code sent to your Telegram app (one-time).
 After that, a session file is saved so it won't ask again.
 """
+import os
 from telethon import TelegramClient, events
 import config
+
+os.makedirs("sessions", exist_ok=True)
 import signal_parser
 import db
 from logger_setup import get_logger
